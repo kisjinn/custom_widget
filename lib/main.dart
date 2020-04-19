@@ -13,11 +13,12 @@ class CustomWidget extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Circular Avatar'),
+
         ),
         body: Stack(
           children: <Widget>[
             Container(
-              color: Colors.transparent,
+              color: Colors.black54,
             ),
 
             Align(
@@ -34,6 +35,7 @@ class CustomWidget extends StatelessWidget {
                             interval: 1,
                             showTicks: false,
                             showLabels: true,
+                            axisLabelStyle: GaugeTextStyle(color: Colors.white),
                             labelsPosition: ElementsPosition.outside,
                             ranges: <GaugeRange>[
                               GaugeRange(
@@ -122,7 +124,7 @@ class CustomWidget extends StatelessWidget {
                 clipBehavior: Clip.hardEdge,
                 color: Colors.transparent,
                 child: Ink.image(
-                  image: AssetImage('lib/images/me.jpg'),
+                  image: AssetImage('lib/images/other.jpg'),
                   fit: BoxFit.cover,
                   width: 130.0,
                   height: 130.0,
