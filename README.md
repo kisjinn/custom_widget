@@ -1,6 +1,6 @@
 # custom_widget
 
-A new Flutter application.
+A customized widget which containing profile picture surrounded by progress bar scaling from 1 to 10..
 
 ## Getting Started
 
