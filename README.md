@@ -2,6 +2,8 @@
 
 A customized widget which containing profile picture surrounded by progress bar scaling from 1 to 10..
 
+![Screenshot](https://user-images.githubusercontent.com/51327862/79686122-9dd77780-825b-11ea-9b8b-2485a5094979.jpg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
